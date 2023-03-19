@@ -26,7 +26,7 @@ def main():
 
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
-    data = lis(map(int, input().split()))
+    data = list(map(int, input().split()))
 
     # TODO: create the function
     
@@ -34,7 +34,7 @@ def main():
     
     # TODO: print out the results, each pair in it's own line
     
-     print(threa_idx, start_time)
+     print(thread_idx, start_time)
 
 
 
