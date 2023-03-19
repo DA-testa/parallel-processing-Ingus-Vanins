@@ -22,7 +22,7 @@ def main():
     # n - thread count 
     # m - job count
     
-     n, m = map(int, input().split())
+    n, m = map(int, input().split())
 
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
@@ -36,7 +36,7 @@ def main():
     # TODO: print out the results, each pair in it's own line
     
     for thread_idx, start_time in result:
-     print(thread_idx, start_time)
+        print(thread_idx, start_time)
 
 
 
