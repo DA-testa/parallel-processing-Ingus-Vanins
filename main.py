@@ -34,6 +34,7 @@ def main():
     
     # TODO: print out the results, each pair in it's own line
     
+    for thread_idx, start_time in result:
      print(thread_idx, start_time)
 
 
