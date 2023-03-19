@@ -26,6 +26,7 @@ def main():
 
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
+    
     data = list(map(int, input().split()))
 
     # TODO: create the function
