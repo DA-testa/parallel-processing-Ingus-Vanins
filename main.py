@@ -1,4 +1,4 @@
-# python3 Ingus Vaņins 7.grupa
+# python3 Ingus Vaņins 7.grupa 221RDB185
 
 import heapq
 
